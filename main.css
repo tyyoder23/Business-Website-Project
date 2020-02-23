@@ -1,0 +1,390 @@
+/*****************************************************
+General
+*****************************************************/
+
+	* {
+	  box-sizing: border-box;
+	}
+
+	body, html {
+		margin: 0;
+		font-family: 'Lato', sans-serif;
+		color: #333333;
+	}
+
+	a {
+	  text-decoration: none;
+	}
+
+	  .clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
+	  }
+	  
+	.noBullets {
+		list-style: none;
+		padding: 0;
+	}
+
+	h1, h2, h3, h4 {
+		font-family: 'Oswald', sans-serif;
+	}
+
+	p, ul, li {
+		font-family: 'Lora', serif;
+	}
+
+	img {
+		width: 100%;
+		margin: 0.1rem;
+	}
+
+/************************
+Header
+************************/
+
+	.navbar {
+		background-color: #6F9FD8;
+	}
+	
+	.navbar-brand {
+		font-size: 2rem;
+	}
+
+	.navbar-brand, .navbar-nav a {
+		font-family: 'Oswald', sans-serif;
+	}
+	
+	.nav-link {
+		text-align: center;
+	}
+	
+	.filler {
+		padding-top: 3rem;
+	}
+
+	#homeHeader {
+		background: linear-gradient(
+			  rgba(0, 0, 0, 0.5), 
+			  rgba(0, 0, 0, 0.5)
+			),url("img/laptop.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		margin-top: -1.4rem;
+		color: white;
+		height: 20rem;
+		border-bottom: 0.1rem solid white;
+	}
+
+	#aboutHeader {
+		background: linear-gradient(
+			  rgba(0, 0, 0, 0.5), 
+			  rgba(0, 0, 0, 0.5)
+			),url("img/uptown.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		margin-top: -1.4rem;
+		color: white;
+		height: 20rem;
+		border-bottom: 0.1rem solid white;
+	}
+
+	#serviceHeader {
+		background: linear-gradient(
+			  rgba(0, 0, 0, 0.5), 
+			  rgba(0, 0, 0, 0.5)
+			),url("img/servicesPic.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		margin-top: -1.4rem;
+		color: white;
+		height: 20rem;
+		border-bottom: 0.1rem solid white;
+	}
+
+
+	.wrapper {
+		display: flex;
+		width: 100%;
+		height: 20rem;
+		align-items: center;
+		justify-content: center;
+	}
+
+
+	.title {
+		flex-basis: 100%;
+		justify-content: center;
+		text-align: center;
+		color:  #6F9FD8;
+		font-size: 3rem;
+		margin-bottom: 0;
+	}
+
+	.intro {
+		text-align: center;
+		font-size: 1rem;
+	}
+
+/************************
+Homepage
+************************/
+
+	.pitchTitle {
+		text-align: center;
+	}
+
+	.servicesTitle {
+		font-size: 1.7rem;
+	}
+
+	.service {
+		display: flex;
+		align-items: flex-end;
+	}
+
+	.serviceTag {
+		display: flex;
+		flex-direction: row;
+		background-color: rgba(111,159,216, 0.9);
+		flex-basis: 100%;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.smallIcon {
+		width: 2rem;
+		height: 2rem;
+		margin: 0 1rem 0 1rem;
+	}
+
+	.homeServiceTitle {
+		color: white;
+		font-size: 1.5rem;
+	}
+
+	.arrow {
+		width: 2rem;
+		height: 2rem;
+		margin: 0 1rem 0 1rem;
+	}
+
+	.homeService {
+		background-size: cover;
+		background-repeat: no-repeat;
+		position: bottom;
+		height: 20rem;
+		margin: 0.1rem;
+	}
+
+	#webDesign {
+		background-image: url("img/webDesign.jpg");
+		
+	}
+
+	#management {
+		background-image: url("img/management.jpg");
+	}
+
+	#optimization {
+		background-image: url("img/optimization.jpg");
+	}
+
+	#eCommerce {
+		background-image: url("img/eCommerce.jpg");
+	}
+
+	#marketing {
+		background-image: url("img/marketing.jpg");
+	}
+
+	#security {
+		background-image: url("img/security.jpg");
+	}
+
+	#email {
+		background-image: url("img/email.jpg");
+	}
+
+	#social {
+		background-image: url("img/social.jpg");
+	}
+
+	.staffTitle {
+		text-align: center;
+		color: #6F9FD8;
+	}
+
+	.staffDescription {
+		text-align: center;
+		
+	}
+
+	.name {
+		color: #6F9FD8;
+		margin-bottom: 0;
+	}
+
+	.job {
+		margin-top: 0;
+	}
+	
+
+	.staffBlock {
+		text-align: center;
+		border-bottom: 0.1rem solid white;
+		color: white;
+		flex: 5;
+		flex-basis: 100%;
+		height: 20rem;
+		display: flex;
+		align-items: center;
+	}
+
+	
+
+	#Daniel {
+		background-image: url("img/daniel.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			position: center;
+			margin: 0.1rem;
+			max-height: 45rem;
+			max-width: 45rem;
+	}
+
+	.nameDaniel {
+		margin: 0;
+	}
+
+	#Ty {
+		background-image: url("img/ty.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			position: center;
+			margin: 0.1rem;
+			max-height: 45rem;
+			max-width: 45rem;
+	}
+
+	.nameTy {
+		margin: 0;
+	}
+
+	.content {
+		flex-basis: 100%;
+		text-align: center;
+		flex-wrap: wrap;
+	}
+
+
+/************************
+About
+************************/
+
+	.aboutTitle {
+		text-align: center;
+		color: #6F9FD8;
+	}
+
+	.aboutInfo {
+		text-align: center;
+	}
+	
+	.picOfDaniel {
+		max-width: 40rem;
+		max-height: 40rem;
+	}
+	
+	.picOfTy {
+		max-width: 40rem;
+		max-height: 40rem;
+	}
+
+
+/************************
+Services
+************************/
+
+	.servicePitchTitle {
+		text-align: center;
+		color: #6F9FD8;
+	}
+
+	.servicePitch {
+		text-align: center;
+	}
+
+	.serviceIcon {
+		margin: 0 auto;
+	}
+
+	.largeIcon {
+		width: 40%;
+	}
+	
+	.servicePic {
+		max-width: 45rem;
+		max-height: 45rem;
+	}
+
+	.serviceTitle {
+		text-align: center;
+		color: #6F9FD8;
+		margin: 1rem 0;
+	}
+
+	.serviceInfo {
+		text-align: center;
+		margin-top: 0;
+		padding-bottom: 1rem;
+	}
+
+	.webDesignInfo {
+		background-color:  #6F9FD8;
+		margin: -0.3rem 0;
+	}
+
+
+
+/************************
+Footer
+************************/
+
+	footer {
+	  background-color: #6F9FD8;
+	  color: white;
+	  text-align: center;
+	}
+
+	.marginBot {
+		margin-bottom: 2rem;
+	}
+
+	.contactTitle {
+		padding-top: 1rem;
+		margin-top: 0;
+	}
+
+	.contactInfo {
+		text-align: center;
+		list-style: none;
+		padding: 0;
+	}
+	
+	.contactLinks {
+		text-decoration: none;
+		color: white;
+	}
+	
+	.copyright {
+	  text-align: center;
+	  padding: 1rem 1rem;
+	  margin: 0;
+	}
+
+

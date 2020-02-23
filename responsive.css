@@ -1,0 +1,245 @@
+@media (min-width:699px) {
+	
+	h1 {
+		font-size: 3rem;
+	}	
+
+	h2{
+		font-size: 2rem;
+	}
+
+	h3 {
+		font-size: 2rem;
+	}
+
+	p {
+		font-size: 1.5rem;
+	}	
+		
+/************************
+Header
+************************/
+
+	#homeHeader, #aboutHeader, #serviceHeader, .wrapper {
+		height: 30rem;
+	}
+	
+	.title {
+		font-size: 5rem;
+	}
+	
+	.intro {
+		font-size: 2rem;
+	}
+	
+	.navbar-brand {
+		font-size: 2.5rem;
+	}
+	
+	.nav-link {
+		font-size: 1.5rem;
+		padding-left: 2rem;
+		margin-right: 2rem;
+	}
+	
+	.filler {
+		padding-top: 3rem;
+	}
+	
+/************************
+Homepage
+************************/
+
+	.services {
+		margin: 0 auto;
+		width: 80%;
+	}
+
+	.homeServiceTitle {
+	font-size:1.5rem;
+	}
+
+	.smallIcon {
+		width: 2.5em;
+		height: 2.5rem;
+	}
+
+	.arrow {
+		width: 2.5em;
+		height: 2.5rem;
+	}
+	
+	.homeService {
+		height: 25rem;
+	}
+	
+	.staffBlocks {
+		margin: 0 auto;
+		width: 80%;
+		padding-bottom: 0.5rem;
+	}
+	
+	.staffBlock {
+		height: 30rem;
+	}
+
+/************************
+About
+************************/
+
+.allStaff {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.aboutTextField {
+	align-self: center;
+}
+
+
+
+/************************
+Services
+************************/
+
+	.serviceText {
+		align-self: center;
+	}
+
+
+}
+
+@media (min-width:1000px) {
+	
+/************************
+Header
+************************/
+	
+	.nav-link {
+		font-size: 1.5rem;
+	}
+	
+	.filler {
+		padding-top: 4.5rem;
+	}
+	
+	#homeHeader, #aboutHeader, #serviceHeader, .wrapper {
+			height: 40rem;
+		}
+	
+/************************
+Homepage
+************************/
+
+	.services {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.homeService {
+		height: 30rem;
+		flex-basis: 49%;
+	}
+
+	.staffBlocks {
+		display: flex;
+	}
+
+	.staffblock {
+		flex-basis: 100%;
+		height: 25rem;
+	}
+
+	#Daniel {
+		height: 30rem;
+		width: 50%;
+		position: center;
+	}
+
+	#Ty {
+		height: 30rem;
+		width: 50%;
+		position: center;
+	}
+
+	.staffBlocks {
+		padding-bottom: 1rem;
+		justify-content: space-around;
+	}
+
+/************************
+About
+************************/
+
+
+	.allStaff {
+		margin-bottom: 1rem;
+	}
+
+	#aboutDaniel {
+		display: flex;
+		
+	}
+
+	#aboutTy {
+		display: flex;
+		
+	}
+
+	.picOfDaniel {
+		width: 50%;
+		height: 25rem;
+		margin: 0;
+		padding: 1rem;
+	}
+
+	.picOfTy {
+		width: 50%;
+		order: 2;
+		height: 25rem;
+		margin: 0;
+		padding: 1rem;
+	}
+
+	.aboutTextField {
+		width: 50%;
+	}
+
+
+
+/************************
+Services
+************************/
+
+	.services {
+		margin-bottom: 1rem;
+	}
+
+	.serviceTextField {
+		display: flex;
+		margin-top: 2rem;
+	}
+
+	.servicePic {
+		width: 50%;
+		height: 25rem;
+		padding: 1rem;
+	}
+
+	.serviceText {
+		flex-direction: column;
+	}
+
+	.picRight {
+		order: 2;
+	}
+
+
+	.serviceText {
+		width: 50%;
+	}
+
+
+
+}
+
